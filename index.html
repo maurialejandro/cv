@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mauri</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2/dist/css/bootstrap.min.css">
+    <script src='./bootstrap-5.3.2/dist/js/bootstrap.min.js' ></script>
+</head>
+
+<body>
+  <div class="container" >
+      <img src="./img/fondo2.png" class="bg-image" alt="">
+    <header class='glass' >
+        <h1>Mauricio Acuña</h1>
+        <p>Desarrollador de software Full-Stack</p>
+        <p>direccion del router http://192.168.100.1/</p>
+    </header>
+    <div class="row" >
+      <div class="col-4">
+        <section class="contacto glass">
+          <article>
+            <h3>Perfil</h3>
+            <p> Programador Full-Stack, gran cantidad de habilidades tecnicas en el area de desarrollo de software web.
+                Gran capacidad analitica, super colaborativo con mis conocimientos, resolutor e intuitivo al momento de aprender documentacion, encontrar o solucionar errores en el codigo.
+                Siempre enfocado en adquirir nuevos y solidos conociemientos en el area TI.
+            </p>
+          </article>
+        </section>
+        <section class="contacto glass">
+          <article>
+            <h3>Información de contacto</h3>
+            <p> <img src="./img/mail.png" style="width: 25px" alt=""> mauri.alejandro2165@gmail.com</p>
+            <p><img src="./img/fono.png" style="width: 25px" alt="">  (569) 68977661</p>
+            <p> <img src="./img/github.png" style="width: 25px" alt=""> <a href="https://github.com/maurialejandro"> GitHub </a></p>
+          </article>
+        </section>
+        <section class="educacion glass">
+          <article>
+            <h3>Educacion</h3>
+            <img src="./img/usm.png" style="width: 300px; margin-bottom: 24px; margin-top: 24px; alt="">
+            <p>Título: Tecnico Universitario en informatica</p>
+          </article>
+        </section>
+      </div>
+      <div class="col-8">
+
+      <!-- Modal Compass -->
+      <div class="modal fade glass" id="compassModal" tabindex="-1" aria-labelledby="modalCompass" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"> Tecnologias y herramientas utilizadas </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section class="row" >
+                <div class="col-4">
+                  <article>
+                    <h4 class="text-success" > Lenguajes </h4>
+                    <p>
+                      <img class="bg-space-img" src="./img/js.png" alt="">
+                      JavaScript
+                    </p>
+                    <p>
+                    <img class="bg-space-img" src="./img/typescript.png" alt="">
+                      TypeScript
+                    </p>
+                    <p>
+                      <img class="bg-space-img" src="./img/html.png" alt="">
+                      HTML
+                    </p>
+                    <p>
+                      <img class="bg-space-img" src="./img/css.png" alt="">
+                      CSS
+                    </p>
+                  </article>
+                </div>
+                <div class="col-4">
+                  <article>
+                  <h4 class="text-success"> Herramientas </h4>
+                  <p>   
+                   <img class="bg-space-img" src="./img/dbeaver.png" alt="">
+                   dbeaver
+                  </p>
+                  <p>
+                   <img class="bg-space-img" src="./img/supabase.png" alt="">
+                   Supabase
+                  </p>
+                  <p>
+                   <img class="bg-space-img" src="./img/vscode.png" alt="">
+                    Visual studio code
+                  </p>
+                  <p>
+                   <img class="bg-space-img" src="./img/webstorm.png" alt="">
+                    WebStorm
+                  </p>
+                  </article>
+                </div>
+                <div class="col-4">
+                  <article>
+                    <h4 class="text-success"> Motores DB </h4>
+                    <p>
+                     <img class="bg-space-img" src="./img/mysql.png" alt="">
+                      MySQL
+                    </p>
+                    <p>
+                     <img class="bg-space-img" src="./img/postgres.png" alt="">
+                      Postgres
+                    </p>
+                  </article>
+                </div>
+                <div class="col">
+                  <article>
+                    <h4 class="text-success"> Entorno de ejecucion </h4>
+                      <p>
+                        <img class="bg-space-img" src="./img/node.png" alt="">
+                        Node JS
+                      </p>
+
+                  </article>
+                </div>
+                <div class="col">
+                  <article>
+                    <h4 class="text-success"> Libreria </h4>
+                    <p>
+                      <img class="bg-space-img" src="./img/react.png" alt="">
+                        React
+                    </p>
+                  </article>
+                </div>
+                <div class="col">
+                  <article>
+                    <h4 class="text-success"> Gestores de paquetes </h4>
+                    <p>
+                     <img class="bg-space-img" style="margin: 5px" src="./img/npm.png" alt="">
+                      npm
+                    </p>
+                    <p>
+                     <img class="bg-space-img" src="./img/nvm.png" alt="">
+                      nvm
+                    </p>
+                  </article>
+                </div>
+              </section>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Listo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal EmpDigital --->
+      <div class="modal fade glass" id="empModal" tabindex="-1" aria-labelledby="modalCompass" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"> Tecnologias y herramientas utilizadas </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section class="row" >
+                <div class="col-6">
+                  <article>
+                    <h4 class="text-success" > Lenguajes </h4>
+                    <p>
+                      <img class="bg-space-img" src="./img/js.png" alt="">
+                      JavaScript
+                    </p>
+                    <p>
+                    <img class="bg-space-img" src="./img/typescript.png" alt="">
+                      TypeScript
+                    </p>
+                    <p>
+                      <img class="bg-space-img" src="./img/html.png" alt="">
+                      HTML
+                    </p>
+                    <p>
+                      <img class="bg-space-img" src="./img/css.png" alt="">
+                      CSS
+                    </p>
+                  </article>
+                </div>
+                <div class="col-6">
+                  <article>
+                  <h4 class="text-success"> Herramientas </h4>
+                  <p>
+                   <img class="bg-space-img" src="./img/vscode.png" alt="">
+                    Visual studio code
+                  </p>
+                  <p>
+                   <img class="bg-space-img" src="./img/firebase.png" alt="">
+                    Firebase
+                  </p>
+                  </article>
+                  <article>
+                    <h4 class="text-success"> Libreria </h4>
+                    <p>
+                      <img class="bg-space-img" src="./img/react.png" alt="">
+                        React
+                    </p>
+                  </article>
+                </div>
+                <div class="col-6">
+                  <article>
+                    <h4 class="text-success"> Framwork </h4>
+                      <p>
+                        <img class="bg-space-img" src="./img/react.png" alt="">
+                        React Native
+                      </p>
+                  </article>
+                </div>
+                <div class="col-6">
+                  <article>
+                    <h4 class="text-success"> Gestores de paquetes </h4>
+                    <p>
+                     <img class="bg-space-img" style="margin: 5px" src="./img/npm.png" alt="">
+                      npm
+                    </p>
+                    <p>
+                     <img class="bg-space-img" src="./img/nvm.png" alt="">
+                      nvm
+                    </p>
+                  </article>
+                </div>
+              </section>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Listo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Envios Flex -->
+      <div class="modal fade glass" id="enviosFlexModal" tabindex="-1" aria-labelledby="modalCompass" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"> Tecnologias y herramientas utilizadas </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section class="row" >
+                <div class="col-6">
+                  <article>
+                    <h4 class="text-success" > Lenguajes </h4>
+                    <p>
+                      <img class="bg-space-img" src="./img/php.png" alt="">
+                      PHP
+                    </p>
+                    <p>
+                      <img class="bg-space-img" src="./img/html.png" alt="">
+                      HTML
+                    </p>
+                    <p>
+                      <img class="bg-space-img" src="./img/css.png" alt="">
+                      CSS
+                    </p>
+                  </article>
+                </div>
+                <div class="col-6">
+                  <article>
+                  <h4 class="text-success"> Herramientas </h4>
+                  <p>
+                   <img class="bg-space-img" src="./img/vscode.png" alt="">
+                    Visual studio code
+                  </p>
+                  <p>
+                   <img class="bg-space-img" style="margin-bottom: 10px; margin-top: 10px;" src="./img/dbeaver.png" alt="">
+                    Dbeaver
+                  </p>
+                  <p>
+                   <img class="bg-space-img" src="./img/lucidchart.png" alt="">
+                    Lucidchart
+                  </p>
+                  </article>
+                </div>
+                <div class="col-6">
+                  <article>
+                    <h4 class="text-success"> Framwork </h4>
+                      <p>
+                        <img class="bg-space-img" src="./img/laravel.png" alt="">
+                        Laravel
+                      </p>
+                  </article>
+                </div>
+                <div class="col-6">
+                  <article>
+                    <h4 class="text-success"> Gestores de paquetes </h4>
+                    <p>
+                     <img class="bg-space-img" style="margin: 5px" src="./img/npm.png" alt="">
+                      npm
+                    </p>
+                    <p>
+                     <img class="bg-space-img" src="./img/nvm.png" alt="">
+                      nvm
+                    </p>
+                  </article>
+                </div>
+                <div class="col-4">
+                  <article>
+                    <h4 class="text-success"> Motores DB </h4>
+                    <p>
+                     <img class="bg-space-img" src="./img/postgres.png" alt="">
+                      Postgres
+                    </p>
+                  </article>
+                </div>
+              </section>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Listo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <section class="experiencia glass ">
+          <article>
+            <h3>Experiencia laboral</h3>
+          </article>
+          <article class="glass2" >
+            <h4 class="text-success" >Compass Database</h4>
+            <small class="text-warning" >Marzo 2023 - Actualmente</small>
+            <p>Desarrollador de software Full-Stack</p>
+            <p>Analizar sistema ya construido en Node JS y React JS. - informar mala implementación de modelo de datos SQL, mal manejo de datos en el frontend al mom ento de hacer cálculos de extensos datos, mala implementaron de JWT y auth.(funcionamiento del sistema muy lento y pegado). - Reparación y creación de múltiples componentes del sistema backend y frontend. - limpieza del modelo de datos y de la DB actual. - migración de sistema y bases de datos a un nuevo hosting. - Desarrollo nuevo sistema TS</p>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#compassModal" > Explorar mas  </button>
+          </article>
+
+          <article class="glass2" >
+            <h4 class="text-success" >EmpDigital</h4>
+            <small class="text-warning">Mayo 2022 - Septiembre 2022</small>
+            <p>Desarrollador front-end</p>
+            <p>Desarrollo de múltiples componentes en aplicaciones móviles nativas Android usando React, ReactNative y servicios de Google Cloud.</p>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#empModal" > Explorar mas </button>
+          </article>
+          <article class="glass2">
+            <h4 class="text-success">Envios Flex LTDA</h4>
+            <small class="text-warning">Enero 2021 - Julio 2021</small>
+            <p>Desarrollador back-end</p>
+            <p>Desarrollar sistema dashboard conectado API de MercadoLibre, obtiene, filtra y muestra estado de ordenes de envíos.
+               Modelar bases de datos, creación de migraciones y 
+            </p>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#enviosFlexModal" > Explorar mas </button>
+          </article>
+          
+        </section>
+      </div>
+    </div>
+      <section class="contacto glass">
+        <article>
+          <h3> Titulo profesional </h3>
+          <img src="./img/titulo.jpg" style="width: 1000px" alt="">
+        </article>
+      </section>--->
+  </div>
+ 
+</body>
+</html>

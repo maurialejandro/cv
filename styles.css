@@ -1,0 +1,73 @@
+
+body {
+    font-family: Hack Nerd Font !important;
+}
+
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+  z-index: -1; /* Coloca la imagen detrás de otros elementos */
+  filter: blur(3px);
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+  }
+
+.contacto, .experiencia, .educacion {
+    margin: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+    color: #4580ee !important ;
+}
+p {
+  color: #cdcdcd !important;
+}
+
+.bg-space-img {
+  width: 70px !important;
+}
+
+article {
+    margin: 20px;
+    padding: 10px;
+}
+
+a {
+    color: #1640D6;
+    text-decoration: none;
+}
+
+
+.glass {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.glass2 {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(0, 0, 0, 0.44);
+}
+
+
